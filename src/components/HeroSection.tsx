@@ -154,6 +154,7 @@ export function HeroSection() {
         </motion.p>
 
         <motion.div
+          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 1.5 }}
@@ -173,6 +174,27 @@ export function HeroSection() {
               transition={{ duration: 2, repeat: Infinity }}
             >
               Solicite uma Demonstração
+            </motion.span>
+          </Button>
+
+          <Button
+            onClick={() =>
+              window.open("https://robot-cool-28634551.figma.site", "_blank")
+            }
+            variant="outline"
+            className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+          >
+            <motion.span
+              animate={{
+                textShadow: [
+                  "0 0 5px rgba(255, 255, 255, 0.3)",
+                  "0 0 10px rgba(255, 255, 255, 0.5)",
+                  "0 0 5px rgba(255, 255, 255, 0.3)",
+                ],
+              }}
+              transition={{ duration: 2, repeat: Infinity }}
+            >
+              Conheça o BMind
             </motion.span>
           </Button>
         </motion.div>
