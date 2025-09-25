@@ -161,7 +161,10 @@ export function HeroSection() {
         >
           <Button
             onClick={() =>
-              window.open("https://robot-cool-28634551.figma.site", "_blank")
+              window.open(
+                "https://www.figma.com/design/LBSt7sj4pCTFXuRBGYxm50/Bauc-Mind?node-id=18-169&t=IF47G9vSj0PtFw6R-1",
+                "_blank"
+              )
             }
             variant="outline"
             className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
